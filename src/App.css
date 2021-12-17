@@ -3,12 +3,12 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   top: 50%;
   left:50%;
   background-color: #f8f9fa;
-  width: 1000px;
-  height: 600px;
+  min-width: 1000px;
+  height: auto;
   transform: translate(-50%, -50%);
   box-shadow: 4px 4px 15px rgba(0,0,0,0.2);
   border-radius: 15px;
@@ -23,17 +23,53 @@
 
 .Photo {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   width: 35%;
   height: 100%;
-  background-color: red;
+}
+
+.LastName {
+  margin-top: 15px;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.Name {
+  font-size: 35px;
+  font-weight: 900;
+}
+.Age {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.Img{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
 }
 
 .Content {
   position: relative;
   width: 100%;
-  height: 90%;
-  background-color: white;
-  border-color: #dee2e6;
-  border-style: solid;
-  border-width: 0 1px 1px 1px;
+  height: 100%;
+  padding: 15px;
+}
+
+.Text{
+  font-size: 30px;
+}
+.Hobbys{
+  font-size: 30px;
+}
+.nav-pills .nav-link.active.NavLink, .nav-pills .show>.nav-link.NavLink{
+  background-color: black;
+}
+
+.nav-link.NavLink {
+  color: black;
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 import {Nav} from 'react-bootstrap'
 
 type Props = {
@@ -8,16 +9,16 @@ type Props = {
 
 const NavTabs:React.FC<Props> = (props) => {
     return (
-        <Nav justify variant="tabs" defaultActiveKey="work" 
+        <Nav className='Nav' justify variant="pills" defaultActiveKey="work" 
         onSelect={props.onSelected}>
           <Nav.Item>
-            <Nav.Link eventKey="work">Places of work</Nav.Link>
+            <Nav.Link className='NavLink' eventKey="work">Places of work</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="edu">Education</Nav.Link>
+            <Nav.Link className='NavLink' eventKey="edu">Education</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="hobby">Hobbys</Nav.Link>
+            <Nav.Link className='NavLink' eventKey="hobby">Hobbys</Nav.Link>
           </Nav.Item>
         </Nav>
     )
