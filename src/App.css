@@ -137,3 +137,12 @@ a {
   flex-direction: row;
   gap: 10px;
 }
+
+.footer {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
