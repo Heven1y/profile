@@ -17,9 +17,9 @@ const NavBar: React.FC = () => {
                     <li><a href="#">Контакты</a></li>
                 </ul>
             </div>
-            <div className={"nav__cart"}>
+            <button className={"nav__cart"}>
                 <Cart/>
-            </div>
+            </button>
         </nav>
     )
 }

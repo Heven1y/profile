@@ -10,7 +10,7 @@ const Map = () => {
             <div className={"contacts__text"}>
                 <div>
                     <div className={"contacts__header"}>
-                        Магазин в Рязане
+                        Магазин в Рязани
                     </div>
                     <div className={"contacts__content"}>
                         <div className={"contacts__content--item"}>ул. Маяковского, 12/59</div>
@@ -25,9 +25,9 @@ const Map = () => {
                     </div>
                 </div>
                 <div className={"contacts__links"}>
-                    <Vk/>
-                    <Facebook/>
-                    <Telegram/>
+                    <a href="#"><Vk/></a>
+                    <a href="#"><Telegram/></a>
+                    <a href="#"><Facebook/></a>
                 </div>
             </div>
             <div className={"contacts__map"}>

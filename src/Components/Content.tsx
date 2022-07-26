@@ -10,16 +10,16 @@ const Content = () => {
             <div className={"content__wrapper-photo"}>
                 <div className={"content__product"}>
                     <a href="#" className={"content__product-item"}>
-                        <div className={"content__product-title"}>Шапка «Фречес»</div>
-                        <div className={"content__product-price"}>1900 ₽</div>
+                        <div>Шапка «Фречес»</div>
+                        <b>1900 ₽</b>
                     </a>
                     <a href="#" className={"content__product-item"}>
-                        <div className={"content__product-title"}>Варежки «Карина»</div>
-                        <div className={"content__product-price"}>1400 ₽</div>
+                        <div>Варежки «Карина»</div>
+                        <b>1400 ₽</b>
                     </a>
                     <a href="#" className={"content__product-item"}>
-                        <div className={"content__product-title"}>Свитер «Бирюза»</div>
-                        <div className={"content__product-price"}>2900 ₽</div>
+                        <div>Свитер «Бирюза»</div>
+                        <b>2900 ₽</b>
                     </a>
                 </div>
                 <img src={`${process.env.PUBLIC_URL}/photo.png`} alt="photo"/>
